@@ -32,6 +32,7 @@ fly through space.
 ![starfield](https://user-images.githubusercontent.com/98482/130655039-7d76e84d-2eae-4347-a1fd-6c46e329bfda.gif)
 
 `--density` Default `250`. The number of stars to render.
+
 `--speed` Default `4`. Higher is faster.
 
 ### pipes
@@ -42,6 +43,17 @@ fly through space.
 
 
 `--color` `full` or `off`. Default `full`
+
+### marquee
+
+scrolls an ascii banner across the screen. based on `figlet`.
+
+![marquee](https://user-images.githubusercontent.com/98482/130655954-68be530c-18e3-44e3-ab13-c3a8335a54e3.gif)
+
+`--message` string to display. Default `text is cool`
+
+`--font` what figlet font to use. Default `slant`; other options: `banner`, `big`, `block`, `bubble`, `digital`, `ivrit`, `lean`, `mini`, `mnemonic`, `script`, `shadow`, `slant`, `small`, `smscript`, `smshadow`, `smslant`, `standard`, `term`
+
 
 ### pollock
 
